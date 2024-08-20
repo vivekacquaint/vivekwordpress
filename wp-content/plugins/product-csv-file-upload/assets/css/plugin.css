@@ -1,0 +1,111 @@
+th, td {
+ white-space: nowrap; 
+}
+div.dataTables_wrapper {
+ margin: 0 auto;
+}
+div.container {
+ width: 80%;
+}
+form.consultant_name {
+    display: inline-flex;
+}
+
+
+
+
+.main-table-entry th{
+    text-transform: capitalize;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #C8E4FF;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+   background-color: #DCEEFF;
+}
+.error-entry tr td:last-child{
+    background-color:  #FFDCDC;
+}
+  
+
+.error-entry tr td.odd-reason{ 
+    background-color:  #FFC6C6;
+}
+.grn-btn{
+    background-color: #94FFAB !important;
+    border: 1px solid #94FFAB !important;
+    color: #000 !important;
+}
+.red-btn{
+    background-color: #FF9494 !important;
+    border: 1px solid #FF9494 !important;
+    color: #000 !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    background-color: #;
+}
+html body  .succ-tab a{
+       background-color: #94FFAB !important;
+}
+.err-tab{
+    background-color: #FF9494 !important;
+}
+ul.nav.nav-tabs.consultant_csv_tab li {
+    width: 50%;
+}
+input.btn.btn-primary.red-btn{
+    padding: 6px 12px !important;
+}
+ul.nav.nav-tabs.consultant_csv_tab {
+    margin-top: 20px;
+}
+input[type="file"] {
+    font-size: 16px;
+    padding: 10px;
+}
+.btn-div {
+    margin-top: 15px;
+}
+.dataTables_scrollHeadInner {
+    width: 100% !important;
+}
+table.table.table-striped.main-table-entry.error-entry.dataTable.no-footer {
+    width: 100% !important;
+}
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody{
+    height: auto !important;
+}
+
+
+.loader-wrapper{
+position: absolute;
+text-align:center;
+top: 50%;
+left: 50%;
+    transform: translate(-50%, -50%);
+z-index:999;
+}
+
+.progress.blue {
+    width: 135px;
+    height: 135px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+    background-color: #000;
+    outline: 10px solid #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+    color: #fffb40;
+}
+.progress.blue h4{
+width:100%;
+margin: 0;
+}
+.progress.blue .progress-value{
+color: #fff;
+font-size: 18px;
+font-weight: 600;
+}
